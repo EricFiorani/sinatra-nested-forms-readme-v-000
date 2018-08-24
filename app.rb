@@ -1,4 +1,4 @@
-class Application::SinatraBase
+class App::SinatraBase
 
   get '/' do
     erb :new
