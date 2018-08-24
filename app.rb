@@ -1,4 +1,6 @@
-class App::SinatraBase
+require_relative './config/environment'
+
+class App < SinatraBase
 
   get '/' do
     erb :new
